@@ -18,8 +18,10 @@ class _MagicState extends State<Magic> {
   Widget build(BuildContext context) {
     return Container(
       child: Scaffold(
+        backgroundColor: Colors.blueGrey,
         appBar: AppBar(
-          title: Center(child: Text("Magic 8 Ball")),
+          backgroundColor: Colors.white,
+          title: Center(child: Text("Magic 8 Ball",style: TextStyle(color:Colors.grey,letterSpacing: 2.5),)),
         ),
         body: Center(
             child: Container(
